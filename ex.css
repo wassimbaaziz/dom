@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   justify-content: center;
+  flex-direction: column;
+}
+#total-cal{
+display: flex;   
+ justify-content: center;
+    font-size: medium;
+    color: rgb(139, 122, 122);
+    border radius: 30px; ;
+    background-image: url("https://i.pinimg.com/236x/a2/5b/a3/a25ba3949d8004027f47b692df460a3d.jpg")}
+#total{
+  border: #000 thick;
+  border-radius: 4px;
+
+}
+.tot{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+color: #000;
+box-shadow: palegreen;
+border-radius: 10px;
+
+}
+#mylist{
+    background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/christmas-%2C-backgrounds%2C-zoom-backgrounds-design-template-f821d8d32c326294133fee5caa3781cb_screen.jpg?ts=1604066961");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+}
+.qte{
+  padding: 5px;
+  background-color:gray;
+  color: white;
+  font-size: larger;
+  border-radius: 1em;
+}
+#contact{
+  background-image: url("https://st3.depositphotos.com/3997585/16105/v/450/depositphotos_161050370-stock-illustration-white-abstract-wave-lines-background.jpg");
+  
+}
+
+#link{
+  display: flex;
+ justify-content:space-around;
+  color: #000;
+  margin: 0px px 10px 0px 10px  ; 
+}

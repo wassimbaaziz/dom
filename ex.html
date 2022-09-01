@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="ex.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Accueil</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Boutique</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Marques</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Point de vente
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pantalons</a></li>
+                      <li><a class="dropdown-item" href="#">sac à dos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Vestes</a></li>
+                    </ul>
+                  </li>
+                 
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="height:400px" src="https://www.cdiscount.com/pdt2/5/5/1/1/700x700/mp14535551/rw/manteau-homme-pardessus-mi-long-caban-veste-chaud.jpg" class="d-block w-100" alt="Not Found">
+        </div>
+        <div class="carousel-item">
+          <img style="height:400px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUvAqIkKZZ8bWx9EjTQttQM3yn47sf36wXLI7nyVnQ&s" class="d-block w-100" alt="Not Found">
+        </div>
+        <div class="carousel-item">
+          <img style="height:400px" src="https://assets.adidas.com/images/w_940,f_auto,q_auto/07ee6890c2af49748b44ae3501220d19_9366/HN0387_21_model.jpg" class="d-block w-100" alt="Not Found">
+        </div>
+      </div>
+    </div>
+    <main>
+        <section id ="total-cal">
+            <button class="btn btn-success">
+            <span class="tot">  <h3>  Prix Total" <span id="total" > 0 </span>"DT </h3> </span>
+          </button>
+          </section>
+          <section id="mylist" >
+           <div class="card" style="width: 18rem; height: 30rem">
+              <img style="height:300px" src="https://cdn.store-factory.com/www.misterfashion.fr/content/product_11020818hd.jpg?v=1588355326" alt="404">
+            <div class="card-body">
+             <h5 class="card-title">Pantalon chino Homme </h5>
+             <p class="card-text">couleur Beige</p>
+             <b>  <span> prix <span class ="prix">99</span> DT </span></b> <br>
+             <button  class="plus btn btn-outline-primary ">+</button>
+             <span class="qte">0</span>
+             <button  class="minus btn btn-outline-danger" ><b>-</b></button>
+             <i class="fas fa-heart"></i>
+             <i class=" ti ti-trash"></i> 
+            </div>
+           </div>    
+           <div class="card" style="width: 18rem; height: 30rem">
+            <img style="height:300px" src="https://www.pachamama-handcraft.com/wp-content/uploads/2019/09/sac-%C3%A0-dos-cuir-homme.jpg" alt="404">
+          <div class="card-body">
+           <h5 class="card-title">Sac à dos urbain Homme</h5>
+           <p class="card-text">couleur Marron</p>
+           <b>  <span> prix <span class="prix">59</span> DT </span></b> <br>
+           <button  class="plus btn btn-outline-primary "> <b>+</b></button>
+           <span class="qte">0</span>
+           <button  class="minus btn btn-outline-danger" ><b>-</b></button>
+           <i class="fas fa-heart"></i>
+           <i class=" ti ti-trash"></i> 
+          </div>
+         </div>
+         <div class="card" style="width: 18rem; height: 30rem">
+            <img style="height:300px" src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/536b8e94e1ea43b2b13ba88700e2911e_9366/veste-varilite-hybrid.jpg" alt="404">
+          <div class="card-body">
+           <h5 class="card-title">Vestes Adidas Homme</h5>
+           <p class="card-text">couleur Noire</p>
+           <b>  <span> prix <span class="prix">89</span> DT </span></b> <br>
+           <button  class="plus btn btn-outline-primary "> <b>+</b></button>
+           <span class="qte">0</span>
+           <button  class="minus btn btn-outline-danger" >-</button>
+           <i class="fas fa-heart"></i>
+           <i class=" ti ti-trash"></i> 
+          </div>
+         </div>
+         </section>
+    </main>
+    <footer id="contact">
+        <section id ="link">
+            <a  class="link1" href="https://play.google.com/store/games?hl=fr_fr"><img src="https://media.boohoo.com/i/boohooamplience/GOOGLE_FRANCE" alt="404"></a> 
+            <a  class = "link2" href="https://www.apple.com/fr/store">  <img src="https://media.boohoo.com/i/boohooamplience/APPLE_FRANCE" alt="404"></a>
+          </section>
+    </footer>
+</body>
+<script src ="./ex.js"> </script>
+</html>
